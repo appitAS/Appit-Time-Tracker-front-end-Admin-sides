@@ -33,7 +33,6 @@ const TimerDisplay = () => {
     });
 
     socket.on("gettimerUpdate", (data) => {
-      console.log(`Timer update received:`, data);
       setWorkTime(data);
     });
 
