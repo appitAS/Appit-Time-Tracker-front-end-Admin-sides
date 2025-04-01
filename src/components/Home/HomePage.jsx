@@ -59,7 +59,7 @@ const TimerDisplay = () => {
   };
 
   return (
-    <div style={{ display:'flex',gap:"2rem", maxWidth: "100%", margin: "auto",  padding: "25px", borderRadius: "12px" }}>
+    <div style={{overflowX: "auto", maxHeight: "400px", overflowY: "auto" , display:'flex',gap:"2rem", maxWidth: "100%", margin: "auto",  padding: "25px", borderRadius: "12px" }}>
       <div>
       <h2 style={{ textAlign: "center", fontSize: "26px", color: "#2c3e50", fontWeight: "bold", marginBottom: "20px" }}>Employee Work Time Tracking</h2>
       <form onSubmit={handleSearch} style={{ display: "flex", justifyContent: "center", gap: "12px", marginBottom: "25px" }}>

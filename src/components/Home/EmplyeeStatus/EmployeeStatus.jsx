@@ -60,6 +60,7 @@ const Members = () => {
         p: 2,
         borderRadius: 2,
         boxShadow: 2,
+        overflowX: "auto", maxHeight: "400px", overflowY: "auto" 
       }}
     >
       <Typography variant="h6" textAlign="center">
