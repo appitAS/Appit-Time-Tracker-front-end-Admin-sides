@@ -169,7 +169,7 @@ function Timesheets() {
                   <td>{formatTime(entry.BreakTime)}</td>
                   <td>{formatIdleTime(entry.totalIdleTime)}</td>
                   <td>{entry.loginAt ? entry.loginAt.join(", ") : "N/A"}</td>
-                  <td>{"none"}</td>
+                  <td>{entry.loginAt ? entry.logOutAt.join(", ") : "N/A"}</td>
                   <td>
                     {entry.idleMsg.length > 0
                       ? entry.idleMsg.join(", ")
