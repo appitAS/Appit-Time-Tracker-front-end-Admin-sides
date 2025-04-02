@@ -1,4 +1,6 @@
 # Logs
+.env
+vite.config.js
 logs
 *.log
 npm-debug.log*
@@ -10,8 +12,7 @@ node_modules
 dist
 dist-ssr
 *.local
-.env
-vite.config.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
