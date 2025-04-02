@@ -1,4 +1,5 @@
 # Logs
+#ignore .env and .vite.config.js
 .env
 vite.config.js
 logs
