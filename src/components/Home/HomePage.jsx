@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import EmployeeStatus from "./EmplyeeStatus/EmployeeStatus";
-import socket from "../../socket";
+ import socket from "../../socket";
 
 const TimerDisplay = () => {
   const [workTime, setWorkTime] = useState([]);

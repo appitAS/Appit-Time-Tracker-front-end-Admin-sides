@@ -11,7 +11,7 @@ import {
   ListItemAvatar,
   ListItemText,
 } from "@mui/material";
-import socket from "../../../socket";
+ import socket from "../../../socket";
 
 const Members = () => {
   const [activeTab, setActiveTab] = useState(0);
