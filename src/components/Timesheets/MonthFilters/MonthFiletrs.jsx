@@ -29,21 +29,21 @@ function MonthFiletrs({ monthData }) {
               {/* Absent Days */}
               <td>
                 {entry.absentDays.map((date, idx) => (
-                  <span key={idx} className="date-box absent" title={date}></span>
+                  <span key={idx} className="date-box absent" faiz={date}></span>
                 ))}
               </td>
 
               {/* Present Days */}
               <td>
                 {entry.presentDays.map((date, idx) => (
-                  <span key={idx} className="date-box present" title={date}></span>
+                  <span key={idx} className="date-box present" faiz={date}></span>
                 ))}
               </td>
 
               {/* Holidays */}
               <td>
                 {entry.satSunHolidays.map((date, idx) => (
-                  <span key={idx} className="date-box holiday" title={date}></span>
+                  <span key={idx} className="date-box holiday" faiz={date}></span>
                 ))}
               </td>
             </tr>
