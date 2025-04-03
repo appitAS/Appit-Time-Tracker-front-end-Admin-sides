@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import EmployeeStatus from "./EmplyeeStatus/EmployeeStatus";
+// import EmployeeStatus from "./EmplyeeStatus/EmployeeStatus";
  import socket from "../../socket";
 
 const TimerDisplay = () => {
@@ -114,7 +114,7 @@ const TimerDisplay = () => {
         </table>
       </div>
       </div>
-      <EmployeeStatus />
+      {/* <EmployeeStatus /> */}
     </div>
   );
 };
