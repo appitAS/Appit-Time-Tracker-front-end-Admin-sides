@@ -16,7 +16,6 @@ import {
 const Members = () => {
   const [activeTab, setActiveTab] = useState(0);
   const [membersData, setMembersData] = useState(
-    JSON.parse(localStorage.getItem("membersData")) || []
   );
   const [searchQuery, setSearchQuery] = useState("");
 
@@ -32,7 +31,6 @@ const Members = () => {
     socket.on("gettimerUpdate", (data) => {
       console.log("Received employee status:", data);
       setMembersData(data);
-      localStorage.setItem("membersData", JSON.stringify(data)); // Store data in local storage
     });
 
     return () => {
